@@ -136,6 +136,7 @@ class FMP:
                 filename = file
                 df = pd.read_csv(f"{path}{filename}")
                 return df
+
         
         url = f"{self.end_point}v3/historical-price-full/{ticker}?apikey={self.api_key}&from={start}&to={end}"
         logging.info(url)

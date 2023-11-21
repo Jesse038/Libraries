@@ -10,8 +10,8 @@ LONG_DESCRIPTION = 'Een library gemaakt voor de les in week 47.'
 setup(
     name="hrfmp",
     version=VERSION,
-    author="Bart Westhoff",
-    author_email="0991807@hr.nl",
+    author="Jesse Beekman",
+    author_email="1064528@hr.nl",
     description=DESCRIPTION,
     long_description_content_type="text/markdown",
     long_description=LONG_DESCRIPTION,
